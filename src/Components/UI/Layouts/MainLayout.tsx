@@ -1,9 +1,9 @@
-import Navbar from "../Navbar";
+import HeroSection from "../HeroSection";
 
 const MainLayout = () => {
     return (
-        <div className="md:max-w-screen-xl md:mx-auto">
-            <Navbar/>
+        <div>
+            <HeroSection/>
         </div>
     );
 };
